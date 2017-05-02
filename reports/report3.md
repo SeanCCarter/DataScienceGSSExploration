@@ -16,8 +16,10 @@ Here are the results of the regression:
 
 ![Age regression](./images/age_logit.png)
 
+We can see from the pseudo R-squared value that this isn't a particularly accurate predictive model, but this is definitely a statistically significant result.
+
 ###### What About Religion?
 
-Here are the results of the regression:
+There are many demographic variables that correlate with age that could serve as better predictors. For example, age correlates strongly with religious affiliation. So, we can build a model that incorporates the 3 dominant religious affiliations in the US, according to the GSS: Protestant, Catholic, and None
 
-![Age regression](./images/age_logit.png)
+![Religious regression](./images/religion_logit.png)
