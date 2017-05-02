@@ -1,0 +1,9 @@
+infile dictionary {
+    _column(1)    numeric                               YEAR   %20f  "Gss year for this respondent                       "
+   _column(21)    numeric                                ID_   %20f  "Respondent id number"
+   _column(41)    numeric                            WRKSTAT   %20f  "Labor force status"
+   _column(61)    numeric                               HRS2   %20f  "Number of hours usually work a week"
+   _column(81)    numeric                            WRKGOVT   %20f  "Govt or private employee"
+  _column(101)    numeric                           INDUSTRY   %20f  "Rs industry code   (1970)"
+  _column(121)    numeric                             VOTE12   %20f  "Did r vote in 2012 election"
+}

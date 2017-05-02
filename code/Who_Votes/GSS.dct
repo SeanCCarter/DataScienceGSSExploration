@@ -1,0 +1,18 @@
+infile dictionary {
+    _column(1)    numeric                               YEAR   %20f  "Gss year for this respondent                       "
+   _column(21)    numeric                           RELPERSN   %20f  "R consider self a religious person    "
+   _column(41)    numeric                              TRUST   %20f  "Can people be trusted"
+   _column(61)    numeric                             HEALTH   %20f  "Condition of health"
+   _column(81)    numeric                              HAPPY   %20f  "General happiness"
+  _column(101)    numeric                             VOTE12   %20f  "Did r vote in 2012 election"
+  _column(121)    numeric                            PARTYID   %20f  "Political party affiliation"
+  _column(141)    numeric                             REGION   %20f  "Region of interview"
+  _column(161)    numeric                               BORN   %20f  "Was r born in this country"
+  _column(181)    numeric                                SEX   %20f  "Respondents sex"
+  _column(201)    numeric                           INDUSTRY   %20f  "Rs industry code   (1970)"
+  _column(221)    numeric                            WRKGOVT   %20f  "Govt or private employee"
+  _column(241)    numeric                               HRS2   %20f  "Number of hours usually work a week"
+  _column(261)    numeric                            WRKSTAT   %20f  "Labor force status"
+  _column(281)    numeric                                ID_   %20f  "Respondent id number"
+  _column(301)    numeric                             BALLOT   %20f  "Ballot used for interview"
+}
