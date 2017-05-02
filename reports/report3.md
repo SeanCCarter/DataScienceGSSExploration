@@ -23,3 +23,23 @@ We can see from the pseudo R-squared value that this isn't a particularly accura
 There are many demographic variables that correlate with age that could serve as better predictors. For example, age correlates strongly with religious affiliation. So, we can build a model that incorporates the 3 dominant religious affiliations in the US, according to the GSS: Protestant, Catholic, and None
 
 ![Religious regression](./images/religion_logit.png)
+
+This shows that religion is a surprisingly poor predictor of a voter's chance of voting. Catholicism is the only statistically significant predictor - both Protestants and 'Nones' aren't sufficiently more or less likely to vote to make this significant at all.
+
+###### Class and Race?
+
+The GSS dataset also provides us with a variable encoding race, as well as one encoding the 'socioeconomic index', which is measured from a large number of different occupational catagories.
+
+![Race and class regression](./images/race_class_logit.png)
+
+Here, we can see that race and class are also both statistically significant. What is particularly interesting is that adding them dramatically decreases the already poor performance of religion - their effect could easily occur by chance, and the size of their proposed effects drops sharply as well. It is also interesting that respondents identifying as both black and white were more likely to vote.
+
+###### Other Variables
+
+Finally, this model incorporates a wide range of potential variables. The P values shown indicate that all of them are statistically significant, except for "isGovt" (a variable encoding whether or not the respondent knows that they work for the government).
+
+![Final regression](./images/final_logit.png)
+
+On interesting feature is that happy people are much more likely to vote, while people who say that others can't be trusted are less likely. Further investigations could explore whether this is because an optimistic attitude promotes some amount of trust in the system, or some sense of agency in voting. As you might expect, a strong party identity is an excellent predictor of voting habits. This could be for similar reasons - i.e, a trust in their party to get things right.
+
+Overall, this model performs much better than one that only takes age into account - the pseudo R-squared value is much larger, which means that a greater percentage of the variability of the model is explained by the independent variables.
