@@ -10,7 +10,7 @@ To do this, we can explore data from the [General Social Survey (GSS)](http://gs
 ----------------------------
 
 ###### How Predictive is Age?
-To explore whether there are better predictive variables than age, we can build a logistic regression model for whether or not people voted, based on age. To focus on more recent data, this model is *only* based on whether a respondent voted in the 2012 election, the most recent year that the GSS has data for.
+Age is an excellent variable to use as a baseline, since many other studies have shown links between age and a tendency to vote. To begin, we can build a logistic regression model for whether or not people voted, based on age. To focus on more recent data, this model is *only* based on whether a respondent voted in the 2012 election, the most recent year that the GSS has data for.
 
 Here are the results of the regression:
 
@@ -32,11 +32,11 @@ The GSS dataset also provides us with a variable encoding race, as well as one e
 
 ![Race and class regression](./images/race_class_logit.png)
 
-Here, we can see that race and class are also both statistically significant. What is particularly interesting is that adding them dramatically decreases the already poor performance of religion - their effect could easily occur by chance, and the size of their proposed effects drops sharply as well. It is also interesting that respondents identifying as both black and white were more likely to vote.
+Here, we can see that race and class are also both statistically significant. What is particularly interesting is that adding them dramatically decreases the already poor performance of religion - their effect could easily occur by chance, and the size of their proposed effects drops sharply as well. It is also shows that respondents identifying as both black and white were more likely to vote.
 
 ###### Other Variables
 
-Finally, this model incorporates a wide range of potential variables. The P values shown indicate that all of them are statistically significant, except for "isGovt" (a variable encoding whether or not the respondent knows that they work for the government).
+Finally, the model below incorporates a wide range of potential variables. The P values shown indicate that all of them are statistically significant, except for "isGovt" (a variable encoding whether or not the respondent knows that they work for the government).
 
 ![Final regression](./images/final_logit.png)
 
