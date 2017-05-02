@@ -28,7 +28,7 @@ This shows that religion is a surprisingly poor predictor of a voter's chance of
 
 ###### Class and Race?
 
-The GSS dataset also provides us with a variable encoding race, as well as one encoding the 'socioeconomic index', which is measured from a large number of different occupational catagories.
+The GSS dataset also provides us with a variable encoding race, as well as one encoding the 'socioeconomic index', which is measured from a large number of different occupational categories.
 
 ![Race and class regression](./images/race_class_logit.png)
 
