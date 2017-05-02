@@ -13,9 +13,11 @@ To do this, we can explore data from the [General Social Survey (GSS)](http://gs
 To explore whether there are better predictive variables than age, we can build a logistic regression model for whether or not people voted, based on age. To focus on more recent data, this model is *only* based on whether a respondent voted in the 2012 election, the most recent year that the GSS has data for.
 
 Here are the results of the regression:
+
 ![Age regression](age_logit.png)
 
 ###### What About Religion?
 
 Here are the results of the regression:
+
 ![Age regression](age_logit.png)
