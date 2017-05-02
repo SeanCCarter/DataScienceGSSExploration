@@ -14,10 +14,10 @@ To explore whether there are better predictive variables than age, we can build 
 
 Here are the results of the regression:
 
-![Age regression](age_logit.png)
+![Age regression](./images/age_logit.png)
 
 ###### What About Religion?
 
 Here are the results of the regression:
 
-![Age regression](age_logit.png)
+![Age regression](./images/age_logit.png)
