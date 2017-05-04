@@ -43,3 +43,7 @@ Finally, the model below incorporates a wide range of potential variables. The P
 One interesting feature is that happy people are much more likely to vote, while people who say that others can't be trusted ("suspicious") are less likely. Further investigations could explore whether this is because an optimistic attitude promotes some amount of trust in the system, or some sense of agency in voting. As you might expect, a strong party identity is an excellent predictor of voting habits (and ). This could be for similar reasons - i.e, a trust in their party to get things right.
 
 Overall, this model performs much better than one that only takes age into account - the pseudo R-squared value is much larger, which means that a greater percentage of the variability of the model is explained by the independent variables. One feature that has remained constant in this analysis, however, is the coefficient and statistical significance of age - the size of its effect has barely changed, and it is still relevant. To see those who are currently young vote, we may just have to wait until they are older.
+
+------------------------------
+
+Results from Jupyter notebook can be found [here](https://github.com/SeanCCarter/DataScienceGSSExploration/blob/master/code/report3.ipynb).
